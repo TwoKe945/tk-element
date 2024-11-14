@@ -1,0 +1,15 @@
+{
+  "name": "tk-element",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@tk-element/components": "workspace:*"
+  },
+  "author": "",
+  "license": "ISC"
+}
