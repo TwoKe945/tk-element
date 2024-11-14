@@ -31,7 +31,7 @@ jobs:
     needs: test
 
     steps:
-- name: Checkout repo
+      - name: Checkout repo
         uses: actions/checkout@v3
         
       - name: Setup Node
@@ -65,5 +65,5 @@ jobs:
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: .
