@@ -3,7 +3,7 @@
 </script>
 
 <template >
-  <div><tk-button>Hello</tk-button></div>
+  <tk-button type="primary">test</tk-button>
 </template>
 
 <style scoped lang='scss'>

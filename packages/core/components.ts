@@ -1,6 +1,6 @@
-import { TkButton } from '@tk-element/components'
+import { TkButton, TkIcon } from '@tk-element/components'
 import { Plugin } from 'vue'
 
 export default [
-  TkButton
+  TkButton, TkIcon
 ] as Plugin[]
